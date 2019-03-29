@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:textSize="@dimen/title_size"
+        android:gravity="center"
+        android:textColor="@color/main_text"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/ll_btn_a"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@color/box_a"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Producto 1"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:paddingTop="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:padding="5dp"
+                    android:textSize="30sp"
+                    android:id="@+id/count_a"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_btn_b"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@color/box_b"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Producto 2"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:paddingTop="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:padding="5dp"
+                    android:textSize="30sp"
+                    android:id="@+id/count_b"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_btn_c"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@color/box_c"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Producto 3"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:paddingTop="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:padding="5dp"
+                    android:textSize="30sp"
+                    android:id="@+id/count_c"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/ll_btn_d"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@color/box_b"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Producto 4"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:paddingTop="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:padding="5dp"
+                    android:textSize="30sp"
+                    android:id="@+id/count_d"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_btn_e"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@color/box_c"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Producto 5"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:paddingTop="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:padding="5dp"
+                    android:textSize="30sp"
+                    android:id="@+id/count_e"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_btn_f"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@color/box_a"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Producto 6"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:paddingTop="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:padding="5dp"
+                    android:textSize="30sp"
+                    android:id="@+id/count_f"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/ll_btn_g"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@color/box_c"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Producto 7"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:paddingTop="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:padding="5dp"
+                    android:textSize="30sp"
+                    android:id="@+id/count_g"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_btn_h"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@color/box_a"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Producto 8"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:paddingTop="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:padding="5dp"
+                    android:textSize="30sp"
+                    android:id="@+id/count_h"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_btn_i"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@color/box_b"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Producto 9"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:paddingTop="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textColor="@color/btn_text"
+                    android:padding="5dp"
+                    android:textSize="30sp"
+                    android:id="@+id/count_i"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_user"
+            android:layout_margin="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/main_text"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/hint_user"
+            android:id="@+id/txt_user"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_email"
+            android:layout_margin="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/main_text"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/hint_email"
+            android:id="@+id/txt_email"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_enviar"
+            android:id="@+id/btn_enviar"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

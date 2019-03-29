@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Evaluacion1_PDM_00046317</string>
+    <string name="main_title">Contador de productos</string>
+    <string name="lbl_user">Usuario</string>
+    <string name="hint_user">Escribe el usuario aquí</string>
+    <string name="lbl_email">Correo Electrónico</string>
+    <string name="hint_email">Escribe el correo aquí</string>
+    <string name="btn_enviar">Enviar</string>
+    <string name="data_title">Factura</string>
+    <string name="btn_share">Share</string>
+</resources>
